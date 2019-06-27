@@ -1,0 +1,45 @@
+{
+  "name": "patientrials-hubot",
+  "version": "1.0.0",
+  "description": "Rocket.Chat adaptor for PatientTrials Chatbots",
+  "main": "bin/hubot",
+  "author": "Krishan Kumar Mourya <mouryakrishan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "hubot",
+    "rocketchat",
+    "chatbot",
+    "chat"
+  ],
+  "engines": {
+    "node": ">=8.x",
+    "npm": ">=5.x"
+  },
+  "scripts": {
+    "debug": "node --inspect --inspect-brk -r dotenv/config node_modules/hubot/bin/hubot.js -a rocketchat",
+    "shell": "node -r dotenv/config node_modules/hubot/bin/hubot.js -a shell",
+    "local": "node -r dotenv/config node_modules/hubot/bin/hubot.js -a rocketchat"
+  },
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "base-64": "^0.1.0",
+    "coffeescript": "^2.2.2",
+    "events": "^3.0.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "hubot": "3",
+    "hubot-help": "^1.0.1",
+    "hubot-rocketchat": "rocketchat/hubot-rocketchat",
+    "hubot-thank-you": "0.0.3",
+    "moment": "^2.22.2",
+    "node-cron": "^1.2.1",
+    "open": "0.0.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
