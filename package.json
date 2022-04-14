@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "apiai": "^4.0.3",
-    "async": "^2.6.2",
+    "async": "^3.2.2",
     "axios": "^0.18.0",
     "base-64": "^0.1.0",
     "coffeescript": "^2.2.2",
