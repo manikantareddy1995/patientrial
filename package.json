@@ -34,7 +34,7 @@
     "hubot-help": "^1.0.1",
     "hubot-rocketchat": "rocketchat/hubot-rocketchat",
     "hubot-thank-you": "0.0.3",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "node-cron": "^1.2.1",
     "open": "0.0.5",
     "request": "^2.88.0"
