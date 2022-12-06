@@ -28,7 +28,7 @@
     "base-64": "^0.1.0",
     "coffeescript": "^2.2.2",
     "events": "^3.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "hubot": "3",
     "hubot-help": "^1.0.1",
